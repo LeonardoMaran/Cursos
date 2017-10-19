@@ -1,0 +1,149 @@
+1. GitHub allows you to host your code repositories online. I'll set up everything for it in this video. I'll also cover remote depositories in general.
+04
+ 
+05
+2. Remote repositories are normally read only, or read write only to those who are authorized
+06
+ 
+07
+3. You either push or pull updates from these remote repositories.
+08
+ 
+09
+4. To push your directory to GitHub ----------------
+10
+ 
+11
+a. git init
+12
+ 
+13
+b. git add . # Stages all new and modified files and directories
+14
+ 
+15
+c. git commit -m 'Initial Project Version'
+16
+ 
+17
+d. git remote add origin https://github.com/derekbanas/SimpleFragment.git
+18
+ 
+19
+e. git push origin master
+20
+ 
+21
+5. git remote -v # Lists all remotes and their URLs
+22
+ 
+23
+6. git fetch origin # Gets data from the remote, but it doesn't merge changes with your work
+24
+ 
+25
+7. git pull https://github.com/derekbanas/SimpleFragment.git
+26
+ 
+27
+a. Pulls all changes and saves them to your directory
+28
+ 
+29
+8. How to push changes to GitHub ----------------
+30
+ 
+31
+a. I add .gitignore for Android on my local machine
+32
+ 
+33
+b. In the terminal type
+34
+ 
+35
+I. git add .gitignore # Stage .gitignore
+36
+ 
+37
+II. git commit -m 'Added .gitignore for Android' # Commit
+38
+ 
+39
+III. git push # Push the changes to GitHub
+40
+ 
+41
+9. git remote rename origin sf # Renames remote to sf
+42
+ 
+43
+10. Tagging ----------------
+44
+ 
+45
+a. Tags are used to tag files at important points in history
+46
+ 
+47
+b. git tag -a v0.1 -m 'version 0.1' # Creates an annotated tag
+48
+ 
+49
+c. git tag # Shows all the tags
+50
+ 
+51
+d. git show v0.1 # Shows details about the commit that was tagged
+52
+ 
+53
+e. git tag v0.4-lw
+54
+ 
+55
+I. Creates a lightweight tag on a commit that stores the hash for the commit
+56
+ 
+57
+f. git tag -a v0.01 c930a8
+58
+ 
+59
+I. You can tag commits after the event also. When you enter this command an editor opens for you to leave a comment. The final part is the hash for the commit you want to tag.
+60
+ 
+61
+g. git push sf v0.1 # You can also push tags
+62
+ 
+63
+I. The tag shows up under releases on GitHub
+64
+ 
+65
+II. git push sf --tags # You can also push all tags at once
+66
+ 
+67
+h. You can set aliases to save time
+68
+ 
+69
+I. git config --global alias.co commit
+70
+ 
+71
+II. Now you can type git co to commit
+72
+ 
+73
+i. Clone a GitHub Repository
+74
+ 
+75
+I. Go to the directory you want to use
+76
+ 
+77
+II. git clone https://github.com/derekbanas/google-api-nodejs-client.git

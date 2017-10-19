@@ -1,0 +1,329 @@
+1. Branching allows you to take a project in your own direction without effecting the main code. You use them to make sure you don't introduce unstable code to the master branch.
+004
+ 
+005
+2. When you commit a project :
+006
+ 
+007
+a. Each file is given a hash code
+008
+ 
+009
+b. A tree object that contains those files and the associated hash codes receives a hash code
+010
+ 
+011
+c. A commit object stores a reference to the tree and other data like the author, commit comment, a reference to the previous commit and other data.
+012
+ 
+013
+3. The default branch is called the master. As you make additional commits the current newest version is referred to as the master.
+014
+ 
+015
+4. If you create a branch you can go in a different direction with the project without effecting the master until you merge. Each branch creates a new pointer to a committed version of files and doesn't make another copy of the files.
+016
+ 
+017
+5. We can actually create many branches, but be careful while doing this because it can get to be hard to merge multiple branches. A pointer known as HEAD can be pointed at any committed version or to any branch with the checkout command.
+018
+ 
+019
+6. When you are finished with your branch you can merge back into the master commit and move on. You can also do all of this locally or on a remote.
+020
+ 
+021
+7. ---------------- Simple Branch Example ----------------
+022
+ 
+023
+a. git checkout -b fix20 # Create a branch and switch to it
+024
+ 
+025
+I. Same as :
+026
+    git branch fix20
+027
+    git checkout fix20
+028
+ 
+029
+b. Change AndroidManifest.xml in vim
+030
+ 
+031
+c. git commit -a -m 'Added Branch fix20' # Commit the change to the branch, but not to master
+032
+ 
+033
+d. git checkout master # Switch to master
+034
+ 
+035
+e. git push origin fix20 # Push the branch to GitHub
+036
+ 
+037
+f. git fetch origin # If someone else fetches from the server they get a reference to the branch on the server but not all the files
+038
+ 
+039
+g. git checkout -b fix20 origin/fix20 # Retrieves the branch fix20
+040
+ 
+041
+h. git branch # Shows all branches
+042
+ 
+043
+i. git branch --merged # Shows all merged branches
+044
+ 
+045
+j. git branch --no-merged # Shows unmerged branches
+046
+ 
+047
+k. git branch -v # Shows all branches and their last commits
+048
+    # * Points out the branch currently checked out
+049
+ 
+050
+l. git merge fix20 # Merge the branch version with the master
+051
+   git push # Push the change to GitHub
+052
+ 
+053
+m. git branch -d fix20 # You can delete merged branches with this
+054
+ 
+055
+n. git branch -D fix22 # Deletes unmerged branches
+056
+ 
+057
+o. git push origin :fix20 # Deletes the branch on GitHub
+058
+ 
+059
+p. git branch -m newBranchName # Renames a branch
+060
+ 
+061
+8. ---------------- Multiple Branch Example ----------------
+062
+ 
+063
+a. a. git checkout -b fix21 # Create a branch and switch to it
+064
+ 
+065
+b. Edit AndroidManifest.xml
+066
+ 
+067
+c. git commit -a -m 'Added Branch fix21'
+068
+ 
+069
+d. git checkout master # Switch to master
+070
+ 
+071
+e. Look at Manifest to see that nothing changed
+072
+ 
+073
+f. git checkout -b 'hotfix' # Create a new branch
+074
+ 
+075
+g. git commit -a -m 'Added Hot Fix' # Commit the Hot Fix
+076
+     
+077
+h. git checkout master # Switch to master
+078
+     
+079
+i. git merge hotfix # Merge the hotfix version with the master
+080
+ 
+081
+j. git branch -d hotfix # Delete the hotfix branch
+082
+ 
+083
+k. git checkout fix21 # Switch to fix21 branch
+084
+ 
+085
+l. git checkout master # Make sure you are in master
+086
+     
+087
+m. git merge fix21 # Merges the branch and master if there are no conflicts
+088
+     
+089
+n. If there is a conflict resolve it
+090
+ 
+091
+o. git branch -d fix21 # Delete the unneeded branch
+092
+   git branch -D fix21 # To force delete
+093
+     
+094
+p. git mergetool # You can merge with a graphical tool
+095
+ 
+096
+I. Backup : Contents of the file before calling the merge tool
+097
+ 
+098
+II. Base : The common ancestor of the files being merged
+099
+ 
+100
+III. Local : Version being pointed at by HEAD
+101
+ 
+102
+IV. Remote : The branch being merged into head
+103
+ 
+104
+9. ---------------- Rebasing Example ----------------
+105
+ 
+106
+a. Rebasing moves a branch to a new ( master / base ) commit. This is also referred to as a fast forward merge. Just never rebase commits that have been pushed to a public repository
+107
+ 
+108
+b. git checkout -b fix22
+109
+ 
+110
+c. Edit AndroidManifest.xml
+111
+ 
+112
+d. git commit -a -m 'Changed the comment to 10'
+113
+ 
+114
+e. git checkout -b hotfix
+115
+ 
+116
+f. Edit another file other then AndroidManifest
+117
+ 
+118
+g. git commit -a -m 'Edited file....'
+119
+ 
+120
+h. git checkout master
+121
+ 
+122
+i. git merge hotfix
+123
+ 
+124
+j. git branch -d hotfix
+125
+ 
+126
+k. git checkout fix22
+127
+ 
+128
+l. git rebase master # Move branch to new master commit
+129
+ 
+130
+m. git checkout master
+131
+ 
+132
+n. git merge fix22
+133
+ 
+134
+10. ---------------- Reverting Vs. Resetting Example ----------------
+135
+ 
+136
+a. Some times you want to eliminate a previous commit, but you still want to keep the commit for integrity reasons. Revert undoes changes made in that commit and makes a new commit. Reset actually deletes the commit which can cause problems.
+137
+ 
+138
+b. Do something that will be undone
+139
+ 
+140
+c. git commit -m 'Made a change that I will undo'
+141
+ 
+142
+d. git revert HEAD # You are back to where you started, but the commit was made
+143
+ 
+144
+e. Reset eliminates previous commits and you can never get them back. You really should never use it actually.
+145
+ 
+146
+f. git reset someFile # Removes a file from the staging area, but leave the working directory unchanged
+147
+ 
+148
+g. git reset # Reset the staging area to match the most recent commit while leaving the working directory unchanged
+149
+ 
+150
+h. git reset aCommit # Move back to this previous commit, reseting the staging area, but not the working directory
+151
+ 
+152
+i. git reset --hard # Reset both the staging area and working directory to match the most recent commit
+153
+ 
+154
+j. git reset --hard aCommit # Move back to the commit listed and change staging and working directory
+155
+ 
+156
+11. ---------------- Clean Example ----------------
+157
+ 
+158
+a. Clean removes untracked files from your directory and is undoable.
+159
+ 
+160
+b. git clean -n # Shows which files will be removed
+161
+ 
+162
+c. git clean -f # Remove untracked files
+163
+ 
+164
+d. gir clean -df # Remove untracked files and untracked directories in the current directory
+165
+ 
+166
+e. git reset --hard # Undoes changes on all tracked files
+167
+   git clean -df # Removes all untracked files

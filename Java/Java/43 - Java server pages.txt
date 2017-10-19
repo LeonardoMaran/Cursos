@@ -1,0 +1,143 @@
+<!-- A Java Server Page is an html file with Java embedded using tags -->
+02
+<!-- This is a JSP Directive that sets options and imports libraries -->
+03
+ 
+04
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+05
+    pageEncoding="ISO-8859-1"%>
+06
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+07
+ 
+08
+<!-- Another JSP Directive -->
+09
+ 
+10
+<%@ page import="java.lang.Math.*" %>
+11
+<html>
+12
+<head>
+13
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+14
+<title>Insert title here</title>
+15
+</head>
+16
+<body>
+17
+ 
+18
+<!-- This is a Scriptlet Java code inserted in the html -->
+19
+<!-- You can enter any core Java code between these tags -->
+20
+ 
+21
+<% out.print("Todays Date: "); %>
+22
+ 
+23
+<!-- This is an Expression code that evaluates to a String -->
+24
+ 
+25
+<%=new java.util.Date() %>
+26
+ 
+27
+<!-- You can create fields and methods in Declarations -->
+28
+ 
+29
+<%! int number1, number2; %>
+30
+<br /><br />
+31
+ 
+32
+<!-- I create a form that will talk to this page -->
+33
+ 
+34
+<form action="calculatejsp.jsp" method="post">
+35
+ 
+36
+Enter 2 Numbers:
+37
+<input type="text" name="numone" />
+38
+ 
+39
+<input type="text" name="numtwo" />
+40
+ 
+41
+<input type="submit" value="Calculate" />
+42
+ 
+43
+</form>
+44
+ 
+45
+The Answer:
+46
+ 
+47
+<!-- JSP expression code that prints the values of the fields -->
+48
+ 
+49
+<%= request.getParameter("numone") %>
+50
++
+51
+<%= request.getParameter("numtwo") %>
+52
+ 
+53
+<!-- Another Scriplet block of code -->
+54
+ 
+55
+<%
+56
+// Grab the value of numone & numtwo and convert them to ints
+57
+ 
+58
+try{
+59
+number1 = Integer.parseInt(request.getParameter("numone"));
+60
+number2 = Integer.parseInt(request.getParameter("numtwo"));
+61
+int sumOfNums = number1 + number2;
+62
+out.print(" = " + sumOfNums);
+63
+}
+64
+catch (NumberFormatException ex)
+65
+{
+66
+  // do something with the exception
+67
+}
+68
+%>
+69
+ 
+70
+ 
+71
+</body>
+72
+</html>

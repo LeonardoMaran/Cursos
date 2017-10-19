@@ -1,0 +1,2650 @@
+
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="csslayout.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Sherlock Holmes</h1>
+    <p class="firstp">"Why did you come to me," he cried, "and, above all, why did you
+      not come at once?"</p>
+      <p class="secondp">"I did not know. It was only to-day that I spoke to <a href="#">Major
+        Prendergast</a> about my troubles and was advised by him to come to
+        you."</p>
+        <p class="thirdp"><img src="180-180.png" class="dog-pic">"It is really two days since you had the letter. <span class="span1">We should have
+          acted before this.</span> You have no further evidence, I suppose, than
+          that which you have placed before us--no suggestive detail which
+          might help us?"</p>
+          <p class="fourthp">"There is one thing," said John Openshaw. He rummaged in his coat
+            pocket, and, drawing out a piece of discoloured, blue-tinted
+            paper, he laid it out upon the table. "I have some remembrance,"
+            said he, "that on the day when my uncle burned the papers I
+            observed that the small, unburned margins which lay amid the
+            ashes were of this particular colour.</p>
+            <p>I found this single sheet
+              upon the floor of his room, and I am inclined to think that it
+              may be one of the papers which has, perhaps, fluttered out from
+              among the others, and in that way has escaped destruction.</p>
+              <p>Beyond
+              the mention of pips, I do not see that it helps us much. I think
+              myself that it is a page from some private diary. The writing is
+              undoubtedly my uncle's."</p>
+              <p>Holmes moved the lamp, and we both bent over the sheet of paper,
+                which showed by its ragged edge that it had indeed been torn from
+                a book. It was headed, "March, 1869," and beneath were the
+                following enigmatical notices:</p>
+                <ul class="notices">
+                  <li>4th. Hudson came. Same old platform</li>
+                  <li>9th. McCauley cleared</li>
+                  <li>10th. John Swain cleared</li>
+                  <li>12th. Visited Paramore. All well</li>
+                </ul>
+                <p>"Thank you!" said Holmes, folding up the paper and returning it
+                  to our visitor. "And now you must on no account lose another
+                  instant. We cannot spare time even to discuss what you have told
+                  me. You must get home instantly and act."</p>
+                  <p>"What shall I do?"</p>
+                  <p>"There is but one thing to do. It must be done at once. You must
+                    put this piece of paper which you have shown us into the brass
+                    box which you have described. You must also put in a note to say
+                    that all the other papers were burned by your uncle, and that
+                    this is the only one which remains. You must assert that in such
+                    words as will carry conviction with them. Having done this, you
+                    must at once put the box out upon the sundial, as directed. Do
+                    you understand?"</p>
+                    <!-- tr defines the row and td each cell -->
+                    <table class="quarterback-stats">
+                    <!-- caption can be used to define a table title -->
+                      <caption>NFL Football Stats</caption>
+                      <!-- thead shows at the top of the table and must
+                      come before tbody -->
+                      <thead>
+                        <tr>
+                          <td colspan="5">Best NFL Quarterbacks</td>
+                        </tr>
+                      </thead>
+                      <tfoot>
+                        <!-- You can define how many rows are taken up
+                        with colspan and you can take up multiple rows
+                        with rowspan -->
+                        <tr><td colspan="5">* Hall of Fame</td></tr>
+                      </tfoot>
+                      <!-- The main data for the table goes between tbody -->
+                      <tbody>
+                      <tr>
+                        <th></th>
+ 
+                        <!-- scope defines whether a heading is tied to a
+                        column or row -->
+                        <th scope="col">Rating</th>
+                        <th scope="col">Comp Prct</th>
+                        <th scope="col">TDs</th>
+                        <th scope="col">Yards</th>
+                      </tr>
+                      <tr>
+                        <th scope="row">Aaron Rodgers</th>
+                        <td>106.0</td>
+                        <td>65.8%</td>
+                        <td>226</td>
+                        <td>28,578</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Steve Young *</th>
+                        <td>96.8</td>
+                        <td>64.3%</td>
+                        <td>232</td>
+                        <td>33,124</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Peyton Manning</th>
+                        <td>97.5</td>
+                        <td>65.5%</td>
+                        <td>530</td>
+                        <td>69,691</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Tom Brady</th>
+                        <td>95.9</td>
+                        <td>63.5%</td>
+                        <td>392</td>
+                        <td>53,258</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Dan Marino *</th>
+                        <td>86.4</td>
+                        <td>59.4%</td>
+                        <td>420</td>
+                        <td>61,361</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Brett Favre *</th>
+                        <td>86.0</td>
+                        <td>62.0%</td>
+                        <td>508</td>
+                        <td>71,838</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Joe Montana *</th>
+                        <td>92.3</td>
+                        <td>63.2%</td>
+                        <td>273</td>
+                        <td>40,551</td>
+                      </tr>
+                      </tbody>
+                    </table><br>
+ 
+                    <form method="post" action="#" id="cust-form">
+                      <div>
+ 
+                        <!-- The for attribute should equal the input
+                        element id to bind them -->
+                        <label for="cust-name">Name</label>
+                        <input type="text" name="cust-name" id="cust-name"
+                        placeholder="Your Name" required="required" />
+                      </div>
+ 
+                      <div>
+                        <label for="cust-email">Email</label>
+                        <input type="text" name="cust-email" id="cust-email"
+                        placeholder="name@example.com" required="required" />
+                      </div>
+ 
+                      <div>
+                        <label for="cust-comment">Comment</label>
+                        <textarea name="cust-comment" id="cust-comment"
+                        rows="8" cols="35" required="required"></textarea>
+                      </div>
+ 
+                      <div>
+                        <input type="submit" name="cust-submit" id="cust-submit"
+                        value="Submit" />
+                      </div>
+                    </form>
+                    <div class="discount">50% off with offer code Sherlock</div>
+ 
+                    <ul class="gallery">
+ 
+                      <li><img src="gallery-1.png">
+                      <span>Eating Stick</span></li>
+                      <li><img src="gallery-2.png">
+                      <span>Sleepy Puppy</span></li>
+                      <li><img src="gallery-3.png">
+                      <span>Puppy Portrait</span></li>
+                      <li><img src="gallery-4.png">
+                      <span>Ready to Go</span></li>
+                      <li><img src="gallery-5.png">
+                      <span>Day at the Park</span></li>
+                      <li><img src="gallery-6.png">
+                      <span>Hotdog</span></li>
+ 
+ 
+                    </ul>
+ 
+                  </div> <!-- End of Wrapper -->
+                </body>
+                </html>
+csslayout.css
+
+
+/* How to use em document wide
+em sized fonts are based off of the size of the root level font size.
+If you change the root font size that cascades document wide
+By setting the size to 62.5% we can achieve the 16px default browser
+size while making em sizing more understandable (16 * 62.5% = 10)
+Now 1.6em = 16px */
+body {
+  font-size: 62.5%;
+
+  /* Remove margins and padding around content */
+  margin: 0;
+  padding: 0;
+
+  /* Use repeating image background */
+  background-image: url("RepeatPattern.png");
+
+  /* Fix background during scrolling */
+  background-attachment: fixed;
+
+  /* Create a gradient background */
+  background-image: -webkit-linear-gradient( top, #000, gray);
+  background-image: -moz-linear-gradient( top, #000, gray);
+  background-image: -ms-linear-gradient( top, #000, gray);
+  background-image: -o-linear-gradient( top, #000, gray);
+  background-image: linear-gradient( top, #000, gray);
+
+  /* Use scalable background image */
+  background-image: url("mountain-bkgrd.png");
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Remove default margin and padding from every element */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Includes padding, margins with width and height of elements */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-size: 1.6em;
+  padding: 2em;
+  margin: 0 auto;
+  width: 900px;
+  height: 2000px;
+  background-color: #FFF;
+
+  /* Place nonrepeating background */
+  background-image: url("flower-bkgrd.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  /* Multiple background images */
+  background: url("flower-bkgrd.png") top right no-repeat,
+  url("flower-bkgrd.png") bottom right no-repeat, #FFF;
+
+  /* Transparent background */
+  opacity: 0.9;
+}
+
+/* Use custom fonts : https://www.google.com/fonts#
+Font Squirrel is often used */
+h1{
+  font-family: 'Lobster', cursive;
+}
+
+/* Eliminate link underlines */
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* Highlight links on hover */
+a:hover {
+  background-color: #FAEBD7;
+}
+
+h1 {
+  /* Remove gap between heading and paragraph */
+  margin-bottom: 0;
+
+  /* Text Shadow : horz-pos, vert-pos, blur amount, color */
+  text-shadow: 2px 2px 3px gray;
+}
+
+/* Remove the margin for a p if it follows a h1 */
+h1+p {
+  margin-top: 0;
+}
+
+p {
+  margin: 10px;
+}
+
+.firstp {
+  /* Indent Text */
+  padding-left: 1.4em;
+}
+
+/* Enlarge the first letter of a paragraph */
+.fourthp:first-letter {
+  font-size: 200%;
+  float: left;
+  line-height: 1;
+}
+
+.dog-pic {
+  border: 2px solid #000;
+  margin: 10px;
+  float: left;
+
+  /* Add drop shadow
+  horz-pos, vert-pos, blur amount, size of shadow, color */
+  -webkit-box-shadow: 2px 2px 3px 2px gray;
+  -moz-box-shadow: 2px 2px 3px 2px gray;
+  box-shadow: 2px 2px 3px 2px gray;
+
+  /* Rounded image corners */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  /* Rotate Image */
+  -webkit-transform: rotate( 3deg);
+  -moz-transform: rotate( 3deg);
+  -o-transform: rotate( 3deg);
+  -ms-transform: rotate( 3deg);
+  transform: rotate( 3deg);
+
+}
+
+/* Use image in list */
+ul {
+  list-style-image: url(nttlogo.png);
+
+  /* Remove list indent */
+  list-style-type: none;
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+/* Display list items horizontally */
+.notices li {
+  display: inline;
+}
+
+table {
+  /* Displayed at the top by default */
+  caption-side: bottom;
+}
+
+.quarterback-stats {
+  width: 600px;
+
+  /* Add border around the table */
+  border: 1px solid #000;
+
+  /* Eliminate space between cells */
+  border-collapse: collapse;
+}
+
+/* Add border around cells */
+.quarterback-stats td, .quarterback-stats th {
+  border: 1px solid #000;
+}
+
+/* Style table columns */
+.quarterback-stats td {
+  text-align: center;
+  padding: 0.3em;
+}
+
+/* Style table headings */
+.quarterback-stats th {
+  font-weight: bold;
+  padding: 0.3em;
+  background-color: #00308F;
+  color: #FFF;
+}
+
+/* Alternate colors on table rows */
+.quarterback-stats tr:nth-child(odd){
+  background-color: #7CB9E8;
+}
+
+/* Highlight table row on hover */
+.quarterback-stats tr:hover {
+  background-color: #2E5894;
+  color: #FFF;
+}
+
+/* Styling a form */
+#cust-form {
+  width: 375px;
+}
+
+#cust-form div {
+  float: left;
+  width: 375px;
+  padding: 0.5em 0.5em 0.75em 0.5em;
+}
+
+/* Add width so inputs line up */
+#cust-form label {
+  float: left;
+  width: 100px;
+}
+
+/* Add width so inputs are the same size */
+#cust-form textarea, form input {
+  width: 250px;
+}
+
+#cust-submit {
+  float: right;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Highlight form on focus */
+#cust-form input:focus, #cust-form textarea:focus{
+  background-color: #F5F5DC;
+}
+
+.discount {
+  background-color: #FFF;
+  border: 4px solid #000;
+  padding: 10px;
+  font-size: 1.4em;
+
+  /* Position absolutely 0px from the top / 55px from the right */
+  /* Positioning is based on the viewport so when resized things go wrong */
+  position: absolute;
+  top: 0px;
+  right: 55px;
+}
+
+/* We can correct this by setting the parent element to relative
+and then position based on the parent */
+.wrapper {
+
+  /* Sets positioning for elements inside it */
+  position: relative;
+}
+
+.discount {
+  right: 0px;
+}
+
+/* Make gallery of images */
+
+ul.gallery {
+  /* Eliminate the bullets */
+  list-style: none;
+  /* Don't allow elements on the left or right */
+  clear: both;
+}
+
+ul.gallery li {
+  /* Inline element in that there are no newlines, but
+  you can style margins, padding, height, and width
+  Inline ignores top / bottom margins, height, width
+  and vertical-align */
+  display: inline-block;
+
+  /* Used so I can position span inside using absolute */
+  position: relative;
+}
+
+ul.gallery span {
+  width: 250px;
+  height: 35px;
+  text-align: center;
+
+  /* Positions the span on the gallery image */
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #000;
+  opacity: 0.75;
+  color: #fff;
+}
+
+ul.gallery span {
+
+  /* don't show span until hover */
+  margin-left: -10000px;
+}
+
+ul.gallery li:hover span {
+
+  /* Show span on hover */
+  margin-left: 0;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+/* How to use em document wide
+em sized fonts are based off of the size of the root level font size.
+If you change the root font size that cascades document wide
+By setting the size to 62.5% we can achieve the 16px default browser
+size while making em sizing more understandable (16 * 62.5% = 10)
+Now 1.6em = 16px */
+body {
+  font-size: 62.5%;
+ 
+  /* Remove margins and padding around content */
+  margin: 0;
+  padding: 0;
+ 
+  /* Use repeating image background */
+  background-image: url("RepeatPattern.png");
+ 
+  /* Fix background during scrolling */
+  background-attachment: fixed;
+ 
+  /* Create a gradient background */
+  background-image: -webkit-linear-gradient( top, #000, gray);
+  background-image: -moz-linear-gradient( top, #000, gray);
+  background-image: -ms-linear-gradient( top, #000, gray);
+  background-image: -o-linear-gradient( top, #000, gray);
+  background-image: linear-gradient( top, #000, gray);
+ 
+  /* Use scalable background image */
+  background-image: url("mountain-bkgrd.png");
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ 
+/* Remove default margin and padding from every element */
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+/* Includes padding, margins with width and height of elements */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ 
+.wrapper {
+  font-size: 1.6em;
+  padding: 2em;
+  margin: 0 auto;
+  width: 900px;
+  height: 2000px;
+  background-color: #FFF;
+ 
+  /* Place nonrepeating background */
+  background-image: url("flower-bkgrd.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+ 
+  /* Multiple background images */
+  background: url("flower-bkgrd.png") top right no-repeat,
+  url("flower-bkgrd.png") bottom right no-repeat, #FFF;
+ 
+  /* Transparent background */
+  opacity: 0.9;
+}
+ 
+/* Use custom fonts : https://www.google.com/fonts#
+Font Squirrel is often used */
+h1{
+  font-family: 'Lobster', cursive;
+}
+ 
+/* Eliminate link underlines */
+ 
+a:link, a:visited {
+  text-decoration: none;
+}
+ 
+/* Highlight links on hover */
+a:hover {
+  background-color: #FAEBD7;
+}
+ 
+h1 {
+  /* Remove gap between heading and paragraph */
+  margin-bottom: 0;
+ 
+  /* Text Shadow : horz-pos, vert-pos, blur amount, color */
+  text-shadow: 2px 2px 3px gray;
+}
+ 
+/* Remove the margin for a p if it follows a h1 */
+h1+p {
+  margin-top: 0;
+}
+ 
+p {
+  margin: 10px;
+}
+ 
+.firstp {
+  /* Indent Text */
+  padding-left: 1.4em;
+}
+ 
+/* Enlarge the first letter of a paragraph */
+.fourthp:first-letter {
+  font-size: 200%;
+  float: left;
+  line-height: 1;
+}
+ 
+.dog-pic {
+  border: 2px solid #000;
+  margin: 10px;
+  float: left;
+ 
+  /* Add drop shadow
+  horz-pos, vert-pos, blur amount, size of shadow, color */
+  -webkit-box-shadow: 2px 2px 3px 2px gray;
+  -moz-box-shadow: 2px 2px 3px 2px gray;
+  box-shadow: 2px 2px 3px 2px gray;
+ 
+  /* Rounded image corners */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+ 
+  /* Rotate Image */
+  -webkit-transform: rotate( 3deg);
+  -moz-transform: rotate( 3deg);
+  -o-transform: rotate( 3deg);
+  -ms-transform: rotate( 3deg);
+  transform: rotate( 3deg);
+ 
+}
+ 
+/* Use image in list */
+ul {
+  list-style-image: url(nttlogo.png);
+ 
+  /* Remove list indent */
+  list-style-type: none;
+  padding-left: 20px;
+  margin-left: 0;
+}
+ 
+/* Display list items horizontally */
+.notices li {
+  display: inline;
+}
+ 
+table {
+  /* Displayed at the top by default */
+  caption-side: bottom;
+}
+ 
+.quarterback-stats {
+  width: 600px;
+ 
+  /* Add border around the table */
+  border: 1px solid #000;
+ 
+  /* Eliminate space between cells */
+  border-collapse: collapse;
+}
+ 
+/* Add border around cells */
+.quarterback-stats td, .quarterback-stats th {
+  border: 1px solid #000;
+}
+ 
+/* Style table columns */
+.quarterback-stats td {
+  text-align: center;
+  padding: 0.3em;
+}
+ 
+/* Style table headings */
+.quarterback-stats th {
+  font-weight: bold;
+  padding: 0.3em;
+  background-color: #00308F;
+  color: #FFF;
+}
+ 
+/* Alternate colors on table rows */
+.quarterback-stats tr:nth-child(odd){
+  background-color: #7CB9E8;
+}
+ 
+/* Highlight table row on hover */
+.quarterback-stats tr:hover {
+  background-color: #2E5894;
+  color: #FFF;
+}
+ 
+/* Styling a form */
+#cust-form {
+  width: 375px;
+}
+ 
+#cust-form div {
+  float: left;
+  width: 375px;
+  padding: 0.5em 0.5em 0.75em 0.5em;
+}
+ 
+/* Add width so inputs line up */
+#cust-form label {
+  float: left;
+  width: 100px;
+}
+ 
+/* Add width so inputs are the same size */
+#cust-form textarea, form input {
+  width: 250px;
+}
+ 
+#cust-submit {
+  float: right;
+  width: auto;
+  margin-right: 10px;
+}
+ 
+/* Highlight form on focus */
+#cust-form input:focus, #cust-form textarea:focus{
+  background-color: #F5F5DC;
+}
+ 
+.discount {
+  background-color: #FFF;
+  border: 4px solid #000;
+  padding: 10px;
+  font-size: 1.4em;
+ 
+  /* Position absolutely 0px from the top / 55px from the right */
+  /* Positioning is based on the viewport so when resized things go wrong */
+  position: absolute;
+  top: 0px;
+  right: 55px;
+}
+ 
+/* We can correct this by setting the parent element to relative
+and then position based on the parent */
+.wrapper {
+ 
+  /* Sets positioning for elements inside it */
+  position: relative;
+}
+ 
+.discount {
+  right: 0px;
+}
+ 
+/* Make gallery of images */
+ 
+ul.gallery {
+  /* Eliminate the bullets */
+  list-style: none;
+  /* Don't allow elements on the left or right */
+  clear: both;
+}
+ 
+ul.gallery li {
+  /* Inline element in that there are no newlines, but
+  you can style margins, padding, height, and width
+  Inline ignores top / bottom margins, height, width
+  and vertical-align */
+  display: inline-block;
+ 
+  /* Used so I can position span inside using absolute */
+  position: relative;
+}
+ 
+ul.gallery span {
+  width: 250px;
+  height: 35px;
+  text-align: center;
+ 
+  /* Positions the span on the gallery image */
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #000;
+  opacity: 0.75;
+  color: #fff;
+}
+ 
+ul.gallery span {
+ 
+  /* don't show span until hover */
+  margin-left: -10000px;
+}
+ 
+ul.gallery li:hover span {
+ 
+  /* Show span on hover */
+  margin-left: 0;
+}
+csslayout2.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="csslayout2.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <header>
+      <h1>Cute But Dangerous</h1>
+    </header>
+
+    <div class="left-nav">
+      <ul>
+        <li>Drop Bear</li>
+        <li>Elwetritsch</li>
+        <li>Hoop Snake</li>
+        <li>Jackalope</li>
+        <li>Skvader</li>
+        <li>Snipe</li>
+        <li>Wild Haggis</li>
+        <li>Wolpertinger</li>
+      </ul>
+    </div>
+
+    <main>
+      <section>
+        <h2>Don't Mess with a Drop Bear</h2>
+        <article>
+          <img src="mean-koala.png" class="mean-koala art-img">
+          <p>Drop bears are commonly said to be unusually large, vicious,
+            carnivorous marsupials related to koalas that inhabit treetops
+            and attack their prey by dropping onto their heads from above.</p>
+
+            <p>Koala drop bears are about the size of a very large dog, have
+              coarse orange fur with dark mottling, have powerful forearms for
+              climbing and attacking prey, and bite using broad powerful premolars
+              rather than canines. They weigh 120 kilograms (260 lb) and have
+              a length of 130 centimetres (51 in).</p>
+
+              <p>A 2012 paper published in the Australian Geographer<sup>
+               <a href="http://www.australiangeographic.com.au/journal/drop-bears-prefer-travellers-says-study.htm"
+               alt="Drop Bear Article">
+               <span>[</span>1<span>]</span></a></sup> found that
+               "Drop Bears target people with foreign accents more often than
+               those who are Australian-born."</p>
+
+               <p>The study, conducted in a drop-bear hot-spot in New South Wales,
+                 aimed to gather data around the behaviour and ecology of the
+                 elusive species.</p>
+
+                 <p>There has been relatively little scientific research into the
+                   drop bear (Thylarctos plummetus), which the Australian Museum
+                   describes as a "large, arboreal, predatory marsupial related to
+                   the koala." Populations are thought mainly to exist in forested
+                   coastal regions of eastern and southern Australia, stretching
+                   from the Cape York Peninsula to Tasmania.</p>
+
+                   <h3>Deter Drop Bear Attacks By</h3>
+                   <ul>
+                    <li>Placing forks in your hair</li>
+                    <li>Rubbing vegemite behind ears or in arm pits</li>
+                    <li>Only speaking English using an Australian accent</li>
+                  </ul>
+                  <hr>
+
+                </article>
+              </section>
+
+              <section>
+                <h2>Jackalopes are Real Frightening</h2>
+                <article>
+                  <img src="jackalope.png" class="jackalope art-img">
+                  <p>There are two versions of the jackalope. The first is
+                    taxidermy version created by Douglas Herrick and his brother.
+                    It is created by grafting deer antlers onto a jackrabbit carcass.
+                    Stuffed and mounted, jackalopes are found in many bars and other
+                    places in the United States.</p>
+
+                    <p>The second version, upon which the Wyoming taxidermists were
+                      building, is very frightening indeed! The cute Jackalope was inspired
+                      by sightings of rabbits infected with the Shope papilloma virus.</p>
+
+                      <p>Shope papilloma virus infects rabbits, causing keratinous carcinomas,
+                        typically on or near the animal’s head. These tumors can become large
+                        enough that they interfere with the host’s ability to eat, eventually
+                        causing starvation. I let it to you whether you want to see the truly
+                        frightening version of the "<a href="https://www.google.com/search?q=rabbit+papillomavirus&espv=2&biw=1002&bih=749&source=lnms&tbm=isch&sa=X&ei=HPpMVaybFajnsAT5l4DQDw&ved=0CAYQ_AUoAQ"
+                        alt="Real Jackalope">Real Jackalope</a>".</p>
+                      </article>
+                    </section>
+
+                  </main>
+
+                  <aside>
+                      <ul class="vert-nav">
+                        <li>Drop Bear</li>
+                        <li>Elwetritsch</li>
+                        <li>Hoop Snake</li>
+                        <li>Jackalope</li>
+                        <li>Skvader</li>
+                        <li>Snipe</li>
+                        <li>Wild Haggis</li>
+                        <li>Wolpertinger</li>
+                      </ul>
+                    </aside>
+
+
+
+                </div> <!-- End of wrapper -->
+                <footer>
+
+                  </footer>
+              </body>
+              </html>
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="csslayout2.css">
+</head>
+<body>
+  <div class="wrapper">
+ 
+    <header>
+      <h1>Cute But Dangerous</h1>
+    </header>
+ 
+    <div class="left-nav">
+      <ul>
+        <li>Drop Bear</li>
+        <li>Elwetritsch</li>
+        <li>Hoop Snake</li>
+        <li>Jackalope</li>
+        <li>Skvader</li>
+        <li>Snipe</li>
+        <li>Wild Haggis</li>
+        <li>Wolpertinger</li>
+      </ul>
+    </div>
+ 
+    <main>
+      <section>
+        <h2>Don't Mess with a Drop Bear</h2>
+        <article>
+          <img src="mean-koala.png" class="mean-koala art-img">
+          <p>Drop bears are commonly said to be unusually large, vicious,
+            carnivorous marsupials related to koalas that inhabit treetops
+            and attack their prey by dropping onto their heads from above.</p>
+ 
+            <p>Koala drop bears are about the size of a very large dog, have
+              coarse orange fur with dark mottling, have powerful forearms for
+              climbing and attacking prey, and bite using broad powerful premolars
+              rather than canines. They weigh 120 kilograms (260 lb) and have
+              a length of 130 centimetres (51 in).</p>
+ 
+              <p>A 2012 paper published in the Australian Geographer<sup>
+               <a href="http://www.australiangeographic.com.au/journal/drop-bears-prefer-travellers-says-study.htm"
+               alt="Drop Bear Article">
+               <span>[</span>1<span>]</span></a></sup> found that
+               "Drop Bears target people with foreign accents more often than
+               those who are Australian-born."</p>
+ 
+               <p>The study, conducted in a drop-bear hot-spot in New South Wales,
+                 aimed to gather data around the behaviour and ecology of the
+                 elusive species.</p>
+ 
+                 <p>There has been relatively little scientific research into the
+                   drop bear (Thylarctos plummetus), which the Australian Museum
+                   describes as a "large, arboreal, predatory marsupial related to
+                   the koala." Populations are thought mainly to exist in forested
+                   coastal regions of eastern and southern Australia, stretching
+                   from the Cape York Peninsula to Tasmania.</p>
+ 
+                   <h3>Deter Drop Bear Attacks By</h3>
+                   <ul>
+                    <li>Placing forks in your hair</li>
+                    <li>Rubbing vegemite behind ears or in arm pits</li>
+                    <li>Only speaking English using an Australian accent</li>
+                  </ul>
+                  <hr>
+ 
+                </article>
+              </section>
+ 
+              <section>
+                <h2>Jackalopes are Real Frightening</h2>
+                <article>
+                  <img src="jackalope.png" class="jackalope art-img">
+                  <p>There are two versions of the jackalope. The first is
+                    taxidermy version created by Douglas Herrick and his brother.
+                    It is created by grafting deer antlers onto a jackrabbit carcass.
+                    Stuffed and mounted, jackalopes are found in many bars and other
+                    places in the United States.</p>
+ 
+                    <p>The second version, upon which the Wyoming taxidermists were
+                      building, is very frightening indeed! The cute Jackalope was inspired
+                      by sightings of rabbits infected with the Shope papilloma virus.</p>
+ 
+                      <p>Shope papilloma virus infects rabbits, causing keratinous carcinomas,
+                        typically on or near the animal’s head. These tumors can become large
+                        enough that they interfere with the host’s ability to eat, eventually
+                        causing starvation. I let it to you whether you want to see the truly
+                        frightening version of the "<a href="https://www.google.com/search?q=rabbit+papillomavirus&espv=2&biw=1002&bih=749&source=lnms&tbm=isch&sa=X&ei=HPpMVaybFajnsAT5l4DQDw&ved=0CAYQ_AUoAQ"
+                        alt="Real Jackalope">Real Jackalope</a>".</p>
+                      </article>
+                    </section>
+ 
+                  </main>
+ 
+                  <aside>
+                      <ul class="vert-nav">
+                        <li>Drop Bear</li>
+                        <li>Elwetritsch</li>
+                        <li>Hoop Snake</li>
+                        <li>Jackalope</li>
+                        <li>Skvader</li>
+                        <li>Snipe</li>
+                        <li>Wild Haggis</li>
+                        <li>Wolpertinger</li>
+                      </ul>
+                    </aside>
+ 
+ 
+ 
+                </div> <!-- End of wrapper -->
+                <footer>
+ 
+                  </footer>
+              </body>
+              </html>
+csslayout2.css
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 900px;
+  font-size: 1.6em;
+  margin: 0 auto;
+  background-color: white;
+}
+
+p {
+  padding: 0 0 1em 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+header {
+  text-align: right;
+  background-color: brown;
+  color: white;
+  padding: 2em;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  padding: 2em;
+  position: relative;
+}
+
+.art-img {
+  float: left;
+  margin: 10px;
+}
+
+h2{
+  margin-bottom: 1em;
+}
+
+hr {
+  margin: 10px;
+}
+
+.vert-nav {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.vert-nav li {
+  display: block;
+  border-bottom: 1px dotted brown;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+
+aside {
+  width: 250px;
+  float: right;
+  background-color: #FFE4C4;
+
+  /* Forces the sidebar to stretch to the same height as content */
+  padding-bottom: 5000px;
+  margin-bottom: -5000px;
+}
+
+main {
+  float: left;
+  width: 550px;
+}
+
+.wrapper {
+  /* Hide the aside sidebar overflow */
+  overflow: hidden;
+}
+
+footer {
+  clear: both;
+  background-color: brown;
+  height: 100px;
+  width: 900px;
+  margin: 0 auto;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  background-color: gray;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+ 
+.wrapper {
+  width: 900px;
+  font-size: 1.6em;
+  margin: 0 auto;
+  background-color: white;
+}
+ 
+p {
+  padding: 0 0 1em 0;
+}
+ 
+ul {
+  padding-left: 20px;
+}
+ 
+header {
+  text-align: right;
+  background-color: brown;
+  color: white;
+  padding: 2em;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ 
+main {
+  padding: 2em;
+  position: relative;
+}
+ 
+.art-img {
+  float: left;
+  margin: 10px;
+}
+ 
+h2{
+  margin-bottom: 1em;
+}
+ 
+hr {
+  margin: 10px;
+}
+ 
+.vert-nav {
+  list-style-type: none;
+  padding: 0px;
+}
+ 
+.vert-nav li {
+  display: block;
+  border-bottom: 1px dotted brown;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+ 
+aside {
+  width: 250px;
+  float: right;
+  background-color: #FFE4C4;
+ 
+  /* Forces the sidebar to stretch to the same height as content */
+  padding-bottom: 5000px;
+  margin-bottom: -5000px;
+}
+ 
+main {
+  float: left;
+  width: 550px;
+}
+ 
+.wrapper {
+  /* Hide the aside sidebar overflow */
+  overflow: hidden;
+}
+ 
+footer {
+  clear: both;
+  background-color: brown;
+  height: 100px;
+  width: 900px;
+  margin: 0 auto;
+}
+csslayout3.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="csslayout3.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <header>
+      <h1>Cute But Dangerous</h1>
+    </header>
+
+    <!-- Left Navigation -->
+    <div class="left-nav">
+      <ul>
+        <li>Drop Bear</li>
+        <li>Elwetritsch</li>
+        <li>Hoop Snake</li>
+        <li>Jackalope</li>
+        <li>Skvader</li>
+        <li>Snipe</li>
+        <li>Wild Haggis</li>
+        <li>Wolpertinger</li>
+      </ul>
+    </div>
+
+    <main>
+      <section>
+        <h2>Don't Mess with a Drop Bear</h2>
+        <article>
+          <img src="mean-koala.png" class="mean-koala art-img">
+          <p>Drop bears are commonly said to be unusually large, vicious,
+            carnivorous marsupials related to koalas that inhabit treetops
+            and attack their prey by dropping onto their heads from above.</p>
+
+            <p>Koala drop bears are about the size of a very large dog, have
+              coarse orange fur with dark mottling, have powerful forearms for
+              climbing and attacking prey, and bite using broad powerful premolars
+              rather than canines. They weigh 120 kilograms (260 lb) and have
+              a length of 130 centimetres (51 in).</p>
+
+              <p>A 2012 paper published in the Australian Geographer<sup>
+               <a href="http://www.australiangeographic.com.au/journal/drop-bears-prefer-travellers-says-study.htm"
+               alt="Drop Bear Article">
+               <span>[</span>1<span>]</span></a></sup> found that
+               "Drop Bears target people with foreign accents more often than
+               those who are Australian-born."</p>
+
+               <p>The study, conducted in a drop-bear hot-spot in New South Wales,
+                 aimed to gather data around the behaviour and ecology of the
+                 elusive species.</p>
+
+                 <p>There has been relatively little scientific research into the
+                   drop bear (Thylarctos plummetus), which the Australian Museum
+                   describes as a "large, arboreal, predatory marsupial related to
+                   the koala." Populations are thought mainly to exist in forested
+                   coastal regions of eastern and southern Australia, stretching
+                   from the Cape York Peninsula to Tasmania.</p>
+
+                   <h3>Deter Drop Bear Attacks By</h3>
+                   <ul>
+                    <li>Placing forks in your hair</li>
+                    <li>Rubbing vegemite behind ears or in arm pits</li>
+                    <li>Only speaking English using an Australian accent</li>
+                  </ul>
+                  <hr>
+
+                </article>
+              </section>
+
+              <section>
+                <h2>Jackalopes are Real Frightening</h2>
+                <article>
+                  <img src="jackalope.png" class="jackalope art-img">
+                  <p>There are two versions of the jackalope. The first is
+                    taxidermy version created by Douglas Herrick and his brother.
+                    It is created by grafting deer antlers onto a jackrabbit carcass.
+                    Stuffed and mounted, jackalopes are found in many bars and other
+                    places in the United States.</p>
+
+                    <p>The second version, upon which the Wyoming taxidermists were
+                      building, is very frightening indeed! The cute Jackalope was inspired
+                      by sightings of rabbits infected with the Shope papilloma virus.</p>
+
+                      <p>Shope papilloma virus infects rabbits, causing keratinous carcinomas,
+                        typically on or near the animal’s head. These tumors can become large
+                        enough that they interfere with the host’s ability to eat, eventually
+                        causing starvation. I let it to you whether you want to see the truly
+                        frightening version of the "<a href="https://www.google.com/search?q=rabbit+papillomavirus&espv=2&biw=1002&bih=749&source=lnms&tbm=isch&sa=X&ei=HPpMVaybFajnsAT5l4DQDw&ved=0CAYQ_AUoAQ"
+                        alt="Real Jackalope">Real Jackalope</a>".</p>
+                      </article>
+                    </section>
+
+                  </main>
+
+                  <aside>
+                    <ul class="vert-nav">
+                      <li>Drop Bear</li>
+                      <li>Elwetritsch</li>
+                      <li>Hoop Snake</li>
+                      <li>Jackalope</li>
+                      <li>Skvader</li>
+                      <li>Snipe</li>
+                      <li>Wild Haggis</li>
+                      <li>Wolpertinger</li>
+                    </ul>
+                  </aside>
+
+
+
+                </div> <!-- End of wrapper -->
+                <footer>
+
+                </footer>
+              </body>
+              </html>
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="csslayout3.css">
+</head>
+<body>
+  <div class="wrapper">
+ 
+    <header>
+      <h1>Cute But Dangerous</h1>
+    </header>
+ 
+    <!-- Left Navigation -->
+    <div class="left-nav">
+      <ul>
+        <li>Drop Bear</li>
+        <li>Elwetritsch</li>
+        <li>Hoop Snake</li>
+        <li>Jackalope</li>
+        <li>Skvader</li>
+        <li>Snipe</li>
+        <li>Wild Haggis</li>
+        <li>Wolpertinger</li>
+      </ul>
+    </div>
+ 
+    <main>
+      <section>
+        <h2>Don't Mess with a Drop Bear</h2>
+        <article>
+          <img src="mean-koala.png" class="mean-koala art-img">
+          <p>Drop bears are commonly said to be unusually large, vicious,
+            carnivorous marsupials related to koalas that inhabit treetops
+            and attack their prey by dropping onto their heads from above.</p>
+ 
+            <p>Koala drop bears are about the size of a very large dog, have
+              coarse orange fur with dark mottling, have powerful forearms for
+              climbing and attacking prey, and bite using broad powerful premolars
+              rather than canines. They weigh 120 kilograms (260 lb) and have
+              a length of 130 centimetres (51 in).</p>
+ 
+              <p>A 2012 paper published in the Australian Geographer<sup>
+               <a href="http://www.australiangeographic.com.au/journal/drop-bears-prefer-travellers-says-study.htm"
+               alt="Drop Bear Article">
+               <span>[</span>1<span>]</span></a></sup> found that
+               "Drop Bears target people with foreign accents more often than
+               those who are Australian-born."</p>
+ 
+               <p>The study, conducted in a drop-bear hot-spot in New South Wales,
+                 aimed to gather data around the behaviour and ecology of the
+                 elusive species.</p>
+ 
+                 <p>There has been relatively little scientific research into the
+                   drop bear (Thylarctos plummetus), which the Australian Museum
+                   describes as a "large, arboreal, predatory marsupial related to
+                   the koala." Populations are thought mainly to exist in forested
+                   coastal regions of eastern and southern Australia, stretching
+                   from the Cape York Peninsula to Tasmania.</p>
+ 
+                   <h3>Deter Drop Bear Attacks By</h3>
+                   <ul>
+                    <li>Placing forks in your hair</li>
+                    <li>Rubbing vegemite behind ears or in arm pits</li>
+                    <li>Only speaking English using an Australian accent</li>
+                  </ul>
+                  <hr>
+ 
+                </article>
+              </section>
+ 
+              <section>
+                <h2>Jackalopes are Real Frightening</h2>
+                <article>
+                  <img src="jackalope.png" class="jackalope art-img">
+                  <p>There are two versions of the jackalope. The first is
+                    taxidermy version created by Douglas Herrick and his brother.
+                    It is created by grafting deer antlers onto a jackrabbit carcass.
+                    Stuffed and mounted, jackalopes are found in many bars and other
+                    places in the United States.</p>
+ 
+                    <p>The second version, upon which the Wyoming taxidermists were
+                      building, is very frightening indeed! The cute Jackalope was inspired
+                      by sightings of rabbits infected with the Shope papilloma virus.</p>
+ 
+                      <p>Shope papilloma virus infects rabbits, causing keratinous carcinomas,
+                        typically on or near the animal’s head. These tumors can become large
+                        enough that they interfere with the host’s ability to eat, eventually
+                        causing starvation. I let it to you whether you want to see the truly
+                        frightening version of the "<a href="https://www.google.com/search?q=rabbit+papillomavirus&espv=2&biw=1002&bih=749&source=lnms&tbm=isch&sa=X&ei=HPpMVaybFajnsAT5l4DQDw&ved=0CAYQ_AUoAQ"
+                        alt="Real Jackalope">Real Jackalope</a>".</p>
+                      </article>
+                    </section>
+ 
+                  </main>
+ 
+                  <aside>
+                    <ul class="vert-nav">
+                      <li>Drop Bear</li>
+                      <li>Elwetritsch</li>
+                      <li>Hoop Snake</li>
+                      <li>Jackalope</li>
+                      <li>Skvader</li>
+                      <li>Snipe</li>
+                      <li>Wild Haggis</li>
+                      <li>Wolpertinger</li>
+                    </ul>
+                  </aside>
+ 
+ 
+ 
+                </div> <!-- End of wrapper -->
+                <footer>
+ 
+                </footer>
+              </body>
+              </html>
+csslayout3.css
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 900px;
+  font-size: 1.6em;
+  margin: 0 auto;
+  background-color: white;
+}
+
+p {
+  padding: 0 0 1em 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+header {
+  text-align: right;
+  background-color: brown;
+  color: white;
+  padding: 2em;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  padding: 2em;
+  position: relative;
+}
+
+.art-img {
+  float: left;
+  margin: 10px;
+}
+
+h2{
+  margin-bottom: 1em;
+}
+
+hr {
+  margin: 10px;
+}
+
+.vert-nav {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.vert-nav li {
+  display: block;
+  border-bottom: 1px dotted brown;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+
+aside {
+  width: 250px;
+  float: right;
+  background-color: #FFE4C4;
+
+  /* Forces the sidebar to stretch to the same height as content */
+  padding-bottom: 5000px;
+  margin-bottom: -5000px;
+}
+
+main {
+  float: left;
+  width: 550px;
+}
+
+.wrapper {
+  /* Hide the aside sidebar overflow */
+  overflow: hidden;
+}
+
+footer {
+  clear: both;
+  background-color: brown;
+  height: 100px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* For Left Nav */
+
+.left-nav {
+  width: 200px;
+  float: left;
+  background-color: #FFE4C4;
+  list-style-type: none;
+  padding: 0px;
+
+  /* Forces the sidebar to stretch to the same height as content */
+  padding-bottom: 5000px;
+  margin-bottom: -5000px;
+}
+
+.left-nav ul {
+  padding: 0px;
+}
+
+.left-nav li {
+  display: block;
+  border-bottom: 1px dotted brown;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+
+main {
+  width: 400px;
+}
+
+aside {
+  width: 200px;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  background-color: gray;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+ 
+.wrapper {
+  width: 900px;
+  font-size: 1.6em;
+  margin: 0 auto;
+  background-color: white;
+}
+ 
+p {
+  padding: 0 0 1em 0;
+}
+ 
+ul {
+  padding-left: 20px;
+}
+ 
+header {
+  text-align: right;
+  background-color: brown;
+  color: white;
+  padding: 2em;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ 
+main {
+  padding: 2em;
+  position: relative;
+}
+ 
+.art-img {
+  float: left;
+  margin: 10px;
+}
+ 
+h2{
+  margin-bottom: 1em;
+}
+ 
+hr {
+  margin: 10px;
+}
+ 
+.vert-nav {
+  list-style-type: none;
+  padding: 0px;
+}
+ 
+.vert-nav li {
+  display: block;
+  border-bottom: 1px dotted brown;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+ 
+aside {
+  width: 250px;
+  float: right;
+  background-color: #FFE4C4;
+ 
+  /* Forces the sidebar to stretch to the same height as content */
+  padding-bottom: 5000px;
+  margin-bottom: -5000px;
+}
+ 
+main {
+  float: left;
+  width: 550px;
+}
+ 
+.wrapper {
+  /* Hide the aside sidebar overflow */
+  overflow: hidden;
+}
+ 
+footer {
+  clear: both;
+  background-color: brown;
+  height: 100px;
+  width: 900px;
+  margin: 0 auto;
+}
+ 
+/* For Left Nav */
+ 
+.left-nav {
+  width: 200px;
+  float: left;
+  background-color: #FFE4C4;
+  list-style-type: none;
+  padding: 0px;
+ 
+  /* Forces the sidebar to stretch to the same height as content */
+  padding-bottom: 5000px;
+  margin-bottom: -5000px;
+}
+ 
+.left-nav ul {
+  padding: 0px;
+}
+ 
+.left-nav li {
+  display: block;
+  border-bottom: 1px dotted brown;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+ 
+main {
+  width: 400px;
+}
+ 
+aside {
+  width: 200px;
+}

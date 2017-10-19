@@ -1,0 +1,551 @@
+$(function(){
+02
+ 
+03
+    $("ul.dropdown li").hover(function(){
+04
+     
+05
+        $(this).addClass("hover");
+06
+        $('ul:first',this).css('visibility', 'visible');
+07
+     
+08
+    }, function(){
+09
+     
+10
+        $(this).removeClass("hover");
+11
+        $('ul:first',this).css('visibility', 'hidden');
+12
+     
+13
+    });
+14
+ 
+15
+});
+1
+ul.dropdown ul li {
+2
+    display: inline;
+3
+    width: 100%; /* Width depends on the size of containing block */
+4
+}
+001
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+002
+<html xmlns="http://www.w3.org/1999/xhtml">
+003
+ 
+004
+<head>
+005
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+006
+     
+007
+    <title>Cross Browser Horizontal Menu</title>
+008
+     
+009
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+010
+    <!--[if lte IE 7]>
+011
+        <link rel="stylesheet" type="text/css" href="css/ie.css" />
+012
+    <![endif]-->
+013
+             
+014
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+015
+     
+016
+    <script type="text/javascript" language="javascript" src="js/crossbrowsermenu.js"></script>
+017
+     
+018
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+019
+</head>
+020
+ 
+021
+<body>
+022
+ 
+023
+<div class="art-bar art-nav">
+024
+    <div id="navigation" class="menu-menu-container">
+025
+     
+026
+    <ul id="menu-menu" class="dropdown">
+027
+        <li id="menu-item-720" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-720">
+028
+            <a href="#" >Home</a>
+029
+        </li>
+030
+        <li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734">
+031
+            <a href="#" >Products/Services</a>
+032
+                <ul class="sub-menu">
+033
+                    <li id="menu-item-740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-740">
+034
+                        <a href="#" >Social Media Audit</a>
+035
+                    </li>
+036
+                    <li id="menu-item-891" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-891">
+037
+                        <a href="#" >Social Media Consulting</a>
+038
+                            <ul class="sub-menu">
+039
+                                <li id="menu-item-753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-740">
+040
+                                    <a href="#" >Social Media Audit</a>
+041
+                                </li>
+042
+                                <li id="menu-item-754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-740">
+043
+                                    <a href="#" >Social Media Audit 2</a>
+044
+                                </li>
+045
+                            </ul>
+046
+                    </li>
+047
+                    <li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733">
+048
+                        <a href="#" >Online Reputation</a>
+049
+                    </li>
+050
+                    <li id="menu-item-743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-743">
+051
+                        <a href="#" >Strategic Marketing Plan</a>
+052
+                    </li>
+053
+                    <li id="menu-item-729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-729">
+054
+                        <a href="#" >Mobile Marketing</a>
+055
+                    </li>
+056
+                    <li id="menu-item-836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-836">
+057
+                        <a href="#" >Real Estate Text Marketing</a>
+058
+                    </li>
+059
+                    <li id="menu-item-749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-749">
+060
+                        <a href="#" >A La Carte Services</a>
+061
+                    </li>
+062
+                    <li id="menu-item-1131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1131">
+063
+                        <a href="#" >Affiliate Products</a>
+064
+                    </li>
+065
+                </ul>
+066
+        </li>
+067
+        <li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752">
+068
+            <a href="#" >Available Workshops</a>
+069
+                <ul class="sub-menu">
+070
+                    <li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737">
+071
+                        <a href="#" >Facebook Business Page</a>
+072
+                    </li>
+073
+                    <li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-890">
+074
+                        <a href="#" >LinkedIn Business</a>
+075
+                    </li>
+076
+                    <li id="menu-item-742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-742">
+077
+                        <a href="#" >Goals that Stick</a>
+078
+                    </li>
+079
+                    <li id="menu-item-745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-745">
+080
+                        <a href="#" >Affirmations for Life</a>
+081
+                    </li>
+082
+                    <li id="menu-item-750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-750">
+083
+                        <a href="#" >Clear the Clutter</a>
+084
+                    </li>
+085
+                </ul>
+086
+            </li>
+087
+            <li id="menu-item-726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726">
+088
+                <a href="#" >Industry Articles</a>
+089
+        <ul class="sub-menu">
+090
+            <li id="menu-item-721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-721">
+091
+                <a href="#" >Small Business Marketing</a>
+092
+            </li>
+093
+            <li id="menu-item-728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728">
+094
+                <a href="#" >Local Online Presence</a>
+095
+            </li>
+096
+            <li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732">
+097
+                <a href="#" >Mobile Marketing</a>
+098
+            </li>
+099
+            <li id="menu-item-741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-741">
+100
+                <a href="#" >Social Media Marketing</a>
+101
+            </li>
+102
+        </ul>
+103
+    </li>
+104
+    <li id="menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-723">
+105
+        <a href="#" >Upcoming Events</a>
+106
+            <ul class="sub-menu">
+107
+                <li id="menu-item-724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-724">
+108
+                    <a href="#" >Are You LinkedIn</a>
+109
+                </li>
+110
+                <li id="menu-item-738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-738">
+111
+                    <a href="#" >Facebook Business/Fan Page</a>
+112
+                </li>
+113
+                <li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
+114
+                    <a href="#" >Optimize LinkedIn Workshop</a>
+115
+                </li>
+116
+            </ul>
+117
+        </li>
+118
+        <li id="menu-item-744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-744">
+119
+            <a href="#" >About Us</a>
+120
+                <ul class="sub-menu">
+121
+                    <li id="menu-item-917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-917">
+122
+                        <a href="#" >About Social Voice Marketing</a>
+123
+                    </li>
+124
+                    <li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725">
+125
+                        <a href="#" >Cindy&#8217;s Profile</a>
+126
+                    </li>
+127
+                    <li id="menu-item-731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731">
+128
+                        <a href="#" >Barry&#8217;s Profile</a>
+129
+                    </li>
+130
+                </ul>
+131
+            </li>
+132
+            <li id="menu-item-746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-746">
+133
+                <a href="#" >Contact Us</a>
+134
+            </li>
+135
+</ul></div>
+136
+</div>
+137
+ 
+138
+</body>
+139
+ 
+140
+</html>
+001
+body {
+002
+    /* Use em for IE and added custom google font*/
+003
+    font: 1.0em/1.4em 'PT Sans Narrow', sans-serif;
+004
+    color: #fff;
+005
+}
+006
+ 
+007
+.menu-menu-container * { /* Everything starts out with no margins or padding */
+008
+    margin: 0;
+009
+    padding: 0;
+010
+}
+011
+ 
+012
+.menu-menu-container {
+013
+    width: 1000px;
+014
+    margin: 0px auto; /* Top Bottom 25px / Left Right auto */
+015
+    border: 1px solid #3B88B4;
+016
+    float: left;
+017
+    background: #3B88B4;
+018
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3B88B4', endColorstr='#295D7C'); /* for IE */
+019
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3B88B4), to(#295D7C)); /* for webkit browsers */
+020
+    background-image: -moz-linear-gradient(top,  #3B88B4,  #295D7C); /* for firefox 3.6+ */
+021
+}
+022
+ 
+023
+/* Remove underlines for all anchor tags in .menu-menu-container */
+024
+.menu-menu-container a {
+025
+    text-decoration: none;
+026
+}
+027
+ 
+028
+/* Remove bullets for all ul tags in .menu-menu-container */
+029
+.menu-menu-container ul {
+030
+    list-style: none;
+031
+}
+032
+ 
+033
+/* Styling for menubar */
+034
+ul.dropdown {
+035
+    position: relative;
+036
+}
+037
+ 
+038
+ul.dropdown li {
+039
+    font-weight: bold;
+040
+    float: left;
+041
+    zoom: 1; /* Forces IE to follow layout rules with the float */
+042
+    background: #3B88B4;
+043
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3B88B4', endColorstr='#295D7C'); /* for IE */
+044
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3B88B4), to(#295D7C)); /* for webkit browsers */
+045
+    background-image: -moz-linear-gradient(top,  #3B88B4,  #295D7C); /* for firefox 3.6+ */
+046
+}
+047
+ 
+048
+ul.dropdown a:hover {
+049
+    color: #fff;
+050
+}
+051
+ 
+052
+ul.dropdown a:active {
+053
+    color: #fff;
+054
+}
+055
+ 
+056
+ul.dropdown li a {
+057
+    display: block;
+058
+    padding: 6px 10px; /* Top Bottom 6px / Left Right 10px */
+059
+    border-right: 1px solid #3B88B4;
+060
+    color: #fff;
+061
+}
+062
+ 
+063
+ul.dropdown li:last-child a {
+064
+    border-right: none;
+065
+}
+066
+ 
+067
+ul.dropdown li.hover,  /* Add hover class in JQuery so it works in IE */
+068
+ul.dropdown li:hover {
+069
+    background: #295D7C;
+070
+    color: fff;
+071
+    border: 1px solid #295D7C;
+072
+    position: relative;
+073
+}
+074
+ 
+075
+ul.dropdown li.hover a {
+076
+    color: fff;
+077
+}
+078
+ 
+079
+ 
+080
+/* First Drop Down Styling */
+081
+ul.dropdown ul {
+082
+    width: 200px;
+083
+    visibility: hidden; /* Hide Menu */
+084
+    position: absolute;
+085
+    top: 100%; /* Sets top to the bottom of the containing box */
+086
+    left: 0; /* Sets left equal to the containing box */
+087
+}
+088
+ 
+089
+ul.dropdown ul li {
+090
+    font-weight: normal;
+091
+    background: #3B88B4;
+092
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3B88B4', endColorstr='#295D7C'); /* for IE */
+093
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3B88B4), to(#295D7C)); /* for webkit browsers */
+094
+    background-image: -moz-linear-gradient(top,  #3B88B4,  #295D7C); /* for firefox 3.6+ */
+095
+    color: #fff;
+096
+    border-bottom: 1px solid #fff;
+097
+    float: none;
+098
+}
+099
+                                       
+100
+/* IE requires Inline Block */
+101
+ul.dropdown ul li a {
+102
+    border-right: none;
+103
+    width: 100%; /* Width depends on the size of containing block */
+104
+    display: inline-block;
+105
+}
+106
+ 
+107
+/* Second Drop Down Styling */
+108
+ul.dropdown ul ul {
+109
+    left: 100%; /* Positions item to the right of containing block */
+110
+    top: 0; /* Sets top to the top of the containing box */
+111
+}
+112
+ 
+113
+/* Set styling for all uls that are children of li */
+114
+/* Makes menu appear on hover on all browsers since IE 7 */
+115
+ul.dropdown li:hover > ul {
+116
+    visibility: visible;
+117
+}
